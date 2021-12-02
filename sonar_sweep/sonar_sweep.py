@@ -50,14 +50,14 @@ def count_sliding_depth_drops(readings: Iterator[int]) -> int:
     return depth_drops
 
 
-if __name__ == "__main__":
+def do_challenges():
     # Count depth drops in input.txt (Day 1 challenge part 1)
-    with open('input.txt') as f:
+    with open('sonar_sweep/input.txt') as f:
         simple_depth_drops = count_depth_drops((int(r) for r in f))
     print("{0} drops in depth in file input.txt".format(simple_depth_drops))
 
     # Count depth drops over a sliding three-reading window (Day 1 challenge part 2)
-    with open('input.txt') as f:
+    with open('sonar_sweep/input.txt') as f:
         sliding_depth_drops = count_sliding_depth_drops((int(r) for r in f))
     print("{0} drops over three-reading windows in file input.txt".format(sliding_depth_drops))
 
