@@ -67,10 +67,10 @@ class BingoBoard:
 def do_challenges():
     bingo_boards = []
     with open('giant_squid/input.txt') as f:
-        # First line is a comma-seperated list of numbers as they are called
+        # First line is a comma-separated list of numbers as they are called
         called_numbers = f.readline()
 
-        # Remainder of the file is a series of 5x5 bingo boards, seperated by newlines
+        # Remainder of the file is a series of 5x5 bingo boards, separated by newlines
         while f.readline():
             new_board = []
             for i in range(5):
@@ -116,7 +116,3 @@ def test_bingo_board():
     b.call_number(16)
     b.call_number(21)
     assert b.has_bingo is True
-
-
-
-
