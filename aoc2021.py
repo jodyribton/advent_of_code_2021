@@ -12,5 +12,5 @@ if __name__ == "__main__":
     print("\n- Day 2 -")
     dive.do_challenges()
 
-    print("\n- Day 2 -")
+    print("\n- Day 3 -")
     binary_diagnostic.do_challenges()
