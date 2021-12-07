@@ -52,14 +52,14 @@ class AimedSub(Sub):
 
 
 def do_challenges():
-    with open('dive/input.txt') as f:
+    with open('day2/input.txt') as f:
         sub = Sub()
         for r in f:
             sub.instruct(r)
     print("Basic submarine ends in position {0} with depth {1} (product {2})".format(
         sub.horizontal_position, sub.depth, sub.horizontal_position * sub.depth))
 
-    with open('dive/input.txt') as f:
+    with open('day2/input.txt') as f:
         aimed_sub = AimedSub()
         for r in f:
             aimed_sub.instruct(r)

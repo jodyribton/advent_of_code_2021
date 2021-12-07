@@ -91,7 +91,7 @@ class Diagnostic:
 
 
 def do_challenges():
-    with open('binary_diagnostic/input.txt') as f:
+    with open('day3/input.txt') as f:
         binary_data = f.read().splitlines(False)
 
     d = Diagnostic(binary_data)

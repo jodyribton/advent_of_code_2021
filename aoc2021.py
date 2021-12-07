@@ -1,7 +1,7 @@
-from dive import dive
-from sonar_sweep import sonar_sweep
-from binary_diagnostic import binary_diagnostic
-from giant_squid import giant_squid
+from day2 import dive
+from day1 import sonar_sweep
+from day3 import binary_diagnostic
+from day4 import giant_squid
 
 if __name__ == "__main__":
 

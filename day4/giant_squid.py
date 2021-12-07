@@ -66,7 +66,7 @@ class BingoBoard:
 
 def do_challenges():
     bingo_boards = []
-    with open('giant_squid/input.txt') as f:
+    with open('day4/input.txt') as f:
         # First line is a comma-separated list of numbers as they are called
         called_numbers = f.readline()
 
